@@ -1,0 +1,18 @@
+model_name: kpn_mfi_video
+batch_size: 8
+epochs: 500
+patch_size: 256
+num_workers: 8
+phase: train
+dataroot_GT: F:\DATASET\YouTebe_video\train_img_resize_480/HDR
+dataroot_LQ: F:\DATASET\YouTebe_video\train_img_resize_480/SDR
+use_flip: True
+use_rot: True
+data_type: img
+lr: !!float 5e-4
+lr_decay_after: 10
+continue_train: False
+save_ckpt_after: 1
+save_img_freq: 20
+ckpt_image_path: ./checkpoints/img
+ckpt_path: ./checkpoints
