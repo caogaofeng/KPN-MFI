@@ -1,7 +1,7 @@
 # KPN-MFI
 
 ### KPN-MFI: A Kernel Prediction Network with Multi-frame Interaction for Video Inverse Tone Mapping
-Gaofeng Cao and Fei Zhou and Han Yan and Anjie Wang and Leidong Fang<br>
+Gaofeng Cao; Fei Zhou; Han Yan; Anjie Wang; Leidong Fang<br>
 
 **This paper is accepted to IJCAI 2022.** 
 
