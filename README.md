@@ -11,18 +11,17 @@ Simplified KPN-MFI pipeline:
 
 ### Dataset
 The dataset we use is from [HDRTVNet](https://github.com/XPixelGroup/HDRTVNet)
-
-@inproceedings{ijcai2022-113,
-  title     = {KPN-MFI: A Kernel Prediction Network with Multi-frame Interaction for Video Inverse Tone Mapping},
-  author    = {Cao, Gaofeng and Zhou, Fei and Yan, Han and Wang, Anjie and Fan, Leidong},
+<br>
+@inproceedings{ijcai2022-113,<br>
+  title     = {KPN-MFI: A Kernel Prediction Network with Multi-frame Interaction for Video Inverse Tone Mapping},<br>
+  author    = {Cao, Gaofeng and Zhou, Fei and Yan, Han and Wang, Anjie and Fan, Leidong},<br>
   booktitle = {Proceedings of the Thirty-First International Joint Conference on
-               Artificial Intelligence, {IJCAI-22}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  editor    = {Lud De Raedt},
-  pages     = {806--812},
-  year      = {2022},
-  month     = {7},
-  note      = {Main Track}
-  doi       = {10.24963/ijcai.2022/113},
-  url       = {https://doi.org/10.24963/ijcai.2022/113},
+               Artificial Intelligence, {IJCAI-22}},<br>
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},<br>
+  pages     = {806--812},<br>
+  year      = {2022},<br>
+  month     = {7},<br>
+  note      = {Main Track}<br>
+  doi       = {10.24963/ijcai.2022/113},<br>
+  url       = {https://doi.org/10.24963/ijcai.2022/113},<br>
 }
