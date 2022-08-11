@@ -290,9 +290,9 @@ class MFI(nn.Module):
         return out
 
 
-class HDRUnet_video(nn.Module):
+class KPNMFI(nn.Module):
     def __init__(self, in_nc=3, out_nc=3, nf=64, n_frame=3, act_type='relu'):
-        super(HDRUnet_video, self).__init__()
+        super(KPNMFI, self).__init__()
         self.enc = encoder(in_nc=in_nc, out_nc=out_nc, nf=nf)
         self.dec = decoder(in_nc=in_nc, out_nc=out_nc, nf=nf)
         self.mfi = MFI(nf=nf, n_frame=n_frame)
@@ -345,7 +345,7 @@ if __name__ == '__main__':
     x2 = torch.randn(2, 3, 64, 64)
     x3 = torch.randn(2, 3, 64, 64)
     x4 = torch.randn(2, 3, 64, 64)
-    m = HDRUnet_video(n_frame=3)
+    m = KPNMFI(n_frame=3)
 
     with torch.no_grad():
         h = m((x, x1, x2 ))
